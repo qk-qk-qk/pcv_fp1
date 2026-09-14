@@ -1,0 +1,31 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+.venv/
+venv/
+env/
+
+# VS Code / IDE settings
+.vscode/
+.idea/
+
+# Environment variables / Secrets
+.env
+.env.*
+
+# Machine Learning / Computer Vision Data
+# (Prevents accidentally pushing massive model weights or video datasets)
+*.pt
+*.pth
+*.h5
+*.keras
+datasets/
+models/
+runs/
+
+# OS generated files
+.DS_Store
+Thumbs.db
