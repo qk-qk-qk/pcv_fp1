@@ -1,6 +1,6 @@
 # Scrolly Bird 🐦📸
 
-**Scrolly Bird** adalah game bergaya *arcade* (porting dari bahasa C + Raylib ke Python menggunakan Pyray) di mana pemain harus menghindari rintangan pipa (kotak) yang terus berjalan. 
+**Scrolly Bird** adalah game bergaya *arcade* di mana pemain harus menghindari rintangan pipa (kotak) yang terus berjalan. 
 
 Keunikan utama dari game ini adalah **sistem kontrol berbasis Computer Vision (OpenCV)**. Anda tidak perlu menggunakan keyboard; cukup gerakkan benda berwarna cerah (seperti sarung tangan) ke atas dan ke bawah di depan *webcam*, dan karakter burung akan mengikuti pergerakan tangan Anda secara *real-time*!
 
@@ -63,7 +63,7 @@ Pastikan file gambar/aset diletakkan di dalam folder `pictures/` yang berada di 
 ## ⚙️ Filter Pemrosesan Gambar (Computer Vision)
 Agar kontrol karakter burung tidak melompat-lompat dan kamera hanya fokus pada sarung tangan Anda, kode ini mengimplementasikan sebuah *pipeline* pemrosesan gambar (*Computer Vision*) yang terdiri dari beberapa filter berurutan. 
 
-Berikut adalah filter yang digunakan dan **mengapa** masing-masing filter tersebut sangat penting:
+Berikut adalah filter yang digunakan dan **mengapa** masing-masing filter tersebut digunakan:
 
 ### 1. Filter Warna HSV (Hue, Saturation, Value Masking)
 *   **Apa yang dilakukan:** Menggunakan `cv2.inRange()`, gambar dari kamera dikonversi dari BGR (merah-hijau-biru biasa) ke format HSV. Sistem membuang (menghitamkan) semua piksel yang warnanya berada di luar nilai target.
