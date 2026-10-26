@@ -16,7 +16,7 @@ Keunikan utama dari game ini adalah **sistem kontrol berbasis Computer Vision (O
 ---
 
 ## 🎥 Video Demo
-*(Tambahkan link video demo Anda di bawah ini)*
+
 [![Scrolly Bird Demo](https://img.youtube.com/vi/0tVBzbhoLZs.jpg)](https://youtu.be/0tVBzbhoLZs)
 
 ---
