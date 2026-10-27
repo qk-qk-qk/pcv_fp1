@@ -44,13 +44,13 @@ Pastikan file gambar/aset diletakkan di dalam folder `pictures/` yang berada di 
 ### 3. Menjalankan Game
 *   **Untuk bermain langsung:**
     ```bash
-    python scrolly_bird.py
+    python main.py
     ```
 *   **Untuk kalibrasi warna (jika objek tidak terdeteksi dengan baik):**
     ```bash
-    python scrolly_bird.py --calibrate
+    python main.py --calibrate
     ```
-    *(Geser slider hingga objek Anda berwarna putih utuh di layar hitam, lalu tekan `S` untuk menyimpan).*
+    *(Geser slider hingga objek berwarna putih utuh di layar hitam, lalu tekan `S` untuk menyimpan).*
 
 ### 4. Kontrol Game
 *   **Kamera (Utama):** Gerakkan objek dengan warna yang telah dikalibrasi naik/turun di depan layar.
